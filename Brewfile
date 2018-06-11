@@ -6,10 +6,11 @@ brew "imagemagick"
 
 cask_args appdir: "/Applications"
 
-cask 'iterm2'
-cask 'dropbox'
-cask 'spotify'
 cask 'atom'
+cask 'docker'
+cask 'dropbox'
+cask 'iterm2'
+cask 'spotify'
 cask 'caffeine'
 cask 'slack'
 # cask 'firefox'

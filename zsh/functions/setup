@@ -1,7 +1,3 @@
-# Change file extensions recursively in current directory
-#
-#   change-extension erb haml
-
 function setup() {
   if ! which brew > /dev/null; then
        # Install Homebrew
@@ -12,5 +8,5 @@ function setup() {
   brew update
 
   # Install everything in Brewfile
-  brew bundle
+  brew bundle --file=~/.Brewfile
 }
