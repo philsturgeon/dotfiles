@@ -289,14 +289,6 @@ function settings() {
   defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
   ###############################################################################
-  # iTunes                                                                      #
-  ###############################################################################
-
-  # Prevent iTunes from opening automatically when play is pressed
-  csrutil disable && launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
-  csrutil enable
-
-  ###############################################################################
   # Kill affected applications                                                  #
   ###############################################################################
 
