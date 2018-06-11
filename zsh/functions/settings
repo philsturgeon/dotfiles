@@ -293,7 +293,8 @@ function settings() {
   ###############################################################################
 
   # Prevent iTunes from opening automatically when play is pressed
-  launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
+  csrutil disable && launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
+  csrutil enable
 
   ###############################################################################
   # Kill affected applications                                                  #
