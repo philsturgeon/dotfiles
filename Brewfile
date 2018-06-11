@@ -1,4 +1,6 @@
+brew 'asdf'
 brew 'git'
+brew 'gpg'
 brew 'hub'
 brew 'httpie'
 brew 'wget'
@@ -6,7 +8,6 @@ brew "imagemagick"
 
 cask_args appdir: "/Applications"
 
-cask 'asdf'
 cask 'atom'
 cask 'docker'
 cask 'dropbox'
