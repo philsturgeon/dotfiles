@@ -9,6 +9,4 @@ function setup() {
 
   # Install everything in Brewfile
   brew bundle --file=~/.Brewfile
-
-  puts "Consider running `./bin/settings` if this is a fresh install"
 }
