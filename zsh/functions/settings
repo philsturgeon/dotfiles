@@ -1,4 +1,4 @@
-function setup() {
+function settings() {
   # Thanks to Mathias Bynens! https://mths.be/macos
 
   # Ask for the administrator password upfront
