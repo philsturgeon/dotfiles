@@ -27,3 +27,6 @@
   path = ~/.gitconfig.local
 [diff]
   colorMoved = zebra
+[user]
+  name = "Phil Sturgeon"
+  email = me@philsturgeon.uk
