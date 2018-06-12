@@ -69,6 +69,13 @@ function settings() {
   defaults write com.apple.screensaver askForPasswordDelay -int 0
 
   ###############################################################################
+  # Screenshots                                                                 #
+  ###############################################################################
+
+  # Write screenshots to /tmp so they dont clog up the desktop forever
+  defaults write com.apple.screencapture location /tmp/
+
+  ###############################################################################
   # Finder                                                                      #
   ###############################################################################
 
