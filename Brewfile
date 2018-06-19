@@ -10,6 +10,7 @@ brew "imagemagick"
 cask_args appdir: "/Applications"
 
 cask 'atom'
+cask 'ccleaner'
 cask 'docker'
 cask 'dropbox'
 cask 'iterm2'
