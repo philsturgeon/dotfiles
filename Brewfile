@@ -10,7 +10,6 @@ brew "imagemagick"
 
 cask_args appdir: "/Applications"
 
-cask 'atom'
 cask 'ccleaner'
 cask 'dropbox'
 cask 'docker'
@@ -20,3 +19,4 @@ cask 'caffeine'
 cask 'slack'
 cask 'sourcetree'
 # cask 'firefox'
+cask 'visual-studio-code'
