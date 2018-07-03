@@ -7,6 +7,8 @@ alias v="$VISUAL"
 
 alias reload!='source ~/.zshrc'
 
+alias atom="code"
+
 # Bundler
 alias b="bundle"
 alias be="bundle exec"
