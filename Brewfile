@@ -3,10 +3,11 @@ brew 'docker-compose'
 brew 'ffmpeg'
 brew 'git'
 brew 'gpg'
+brew 'graphviz'
 brew 'hub'
 brew 'httpie'
+brew 'imagemagick'
 brew 'wget'
-brew "imagemagick"
 
 cask_args appdir: "/Applications"
 
