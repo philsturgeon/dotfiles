@@ -9,6 +9,9 @@ brew 'httpie'
 brew 'imagemagick'
 brew 'wget'
 
+tap 'eddieantonio/eddieantonio'
+brew 'imgcat'
+
 cask_args appdir: "/Applications"
 
 cask 'ccleaner'
