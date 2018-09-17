@@ -127,14 +127,11 @@ function settings() {
       Privileges -bool true
 
   # Auto hide menu bar
-  defaults write NSGlobalDomain _HIHideMenuBar -bool true
+  defaults write NSGlobalDomain _HIHideMenuBar -bool false
 
   ###############################################################################
   # Dock, Dashboard, and hot corners                                            #
   ###############################################################################
-
-  # Dark menu bar and dock
-  defaults write $HOME/Library/Preferences/.GlobalPreferences.plist AppleInterfaceTheme -string "Dark"
 
   # Enable highlight hover effect for the grid view of a stack (Dock)
   defaults write com.apple.dock mouse-over-hilite-stack -bool true
