@@ -1,4 +1,4 @@
-thoughtbot dotfiles
+philsturgeon dotfiles
 ===================
 
 ![prompt](http://images.thoughtbot.com/thoughtbot-dotfiles-prompt.png)
@@ -13,25 +13,27 @@ Set zsh as your login shell:
 Install
 -------
 
-Clone onto your laptop:
+If this is a brand new laptop, install the Xcode developer tools:
 
-    git clone git://github.com/philsturgeon/dotfiles.git ~/dotfiles
+```
+xcode-select --install
+```
 
-(Or, [fork and keep your fork
-updated](http://robots.thoughtbot.com/keeping-a-github-fork-updated)).
+That will get you git, so now you can clone to your laptop:
 
-Install [rcm](https://github.com/thoughtbot/rcm):
+```
+git clone git://github.com/philsturgeo/dotfiles.git ~/dotfiles
+```
 
-    brew tap thoughtbot/formulae
-    brew install rcm
+Run install:
 
-Install the dotfiles:
+```
+cd dotfiles
+./install.sh
+```
 
-    env RCRC=$HOME/dotfiles/rcrc rcup
-
-After the initial installation, you can run `rcup` without the one-time variable
-`RCRC` being set (`rcup` will symlink the repo's `rcrc` to `~/.rcrc` for future
-runs of `rcup`). [See
+After the initial installation, you can run `rcup` (`rcup` will symlink the repo's `rcrc` 
+to `~/.rcrc` for future runs of `rcup`). [See
 example](https://github.com/thoughtbot/dotfiles/blob/master/rcrc).
 
 This command will create symlinks for config files in your home directory.
