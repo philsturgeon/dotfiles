@@ -14,6 +14,7 @@ brew 'imgcat'
 
 cask_args appdir: "/Applications"
 
+cask '1password'
 cask 'ccleaner'
 cask 'dropbox'
 cask 'docker'
