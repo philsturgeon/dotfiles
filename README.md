@@ -1,7 +1,9 @@
 philsturgeon dotfiles
 ===================
 
-![prompt](http://images.thoughtbot.com/thoughtbot-dotfiles-prompt.png)
+Setting up and maintaining applications and settings on multiple machines, thanks to awesome stuff like Brew and ZSH.
+
+Based heavily on [thoughtbot/dotfiles](https://github.com/thoughtbot/dotfiles).
 
 Requirements
 ------------
@@ -22,7 +24,7 @@ xcode-select --install
 That will get you git, so now you can clone to your laptop:
 
 ```
-git clone git://github.com/philsturgeo/dotfiles.git ~/dotfiles
+git clone git://github.com/philsturgeon/dotfiles.git ~/dotfiles
 ```
 
 Run install:
