@@ -20,6 +20,9 @@ function settings() {
   # Increase window resize speed for Cocoa applications
   defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 
+  # Show hidden files
+  defaults write com.apple.finder AppleShowAllFiles TRUE
+
   # Automatically quit printer app once the print jobs complete
   defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 
