@@ -7,6 +7,7 @@ brew 'graphviz'
 brew 'hub'
 brew 'httpie'
 brew 'imagemagick'
+brew 's3cmd'
 brew 'wget'
 
 tap 'eddieantonio/eddieantonio'
