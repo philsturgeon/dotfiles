@@ -1,0 +1,8 @@
+# keep trying some bullshit flakey command until it works
+function ffs() {
+    until eval $@
+    do
+        echo "Try again"
+        sleep 2
+    done
+}
