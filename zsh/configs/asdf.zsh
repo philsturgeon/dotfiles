@@ -11,9 +11,9 @@ fi
 source $ASDF_NODE_DIR/asdf.sh
 source $ASDF_NODE_DIR/completions/asdf.bash
 
-export NODE_TRUST_FILE=$ASDF_NODE_DIR/plugins/nodejs/.trusted
+export NODE_TRUST_FILE=$HOME/.asdf/plugins/nodejs/.trusted
 if [[ ! -f $NODE_TRUST_FILE ]];
 then
-  bash $ASDF_NODE_DIR/plugins/nodejs/bin/import-release-team-keyring
+  bash $HOME/.asdf/plugins/nodejs/bin/import-release-team-keyring
   touch $NODE_TRUST_FILE
 fi
