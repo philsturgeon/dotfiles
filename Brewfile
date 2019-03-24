@@ -1,7 +1,9 @@
 brew 'asdf'
+brew 'asciidoac' # local book toolchain
+brew 'docbook-xsl' # output epub and other book formats
 brew 'docker-compose'
 brew 'ffmpeg'
-brew 'git'
+brew 'fop'
 brew 'gpg'
 brew 'graphviz'
 brew 'httpie'
@@ -22,6 +24,7 @@ cask 'docker'
 cask 'dropbox'
 cask 'enpass'
 cask 'firefox'
+cask 'java'
 cask 'iterm2'
 cask 'ngrok'
 cask 'slack'
