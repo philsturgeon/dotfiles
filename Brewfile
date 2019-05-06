@@ -16,11 +16,11 @@ brew 'imgcat'
 
 cask_args appdir: "/Applications"
 
+cask '1password'
 cask 'caffeine'
 cask 'ccleaner'
 cask 'docker'
 cask 'dropbox'
-cask 'enpass'
 cask 'firefox'
 cask 'iterm2'
 cask 'ngrok'
