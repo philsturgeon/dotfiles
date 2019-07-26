@@ -3,7 +3,7 @@ PATH="$HOME/.bin:/usr/local/sbin:$PATH"
 
 # load ASDF, falling back to rbenv if not available
 if [ -d "$HOME/.asdf" ]; then
-  . $HOME/.asdf/asdf.sh
+  # . $HOME/.asdf/asdf.sh
 fi
 
 # mkdir .git/safe in the root of repositories you trust

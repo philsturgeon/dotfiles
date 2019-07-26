@@ -9,7 +9,6 @@ then
 fi
 
 source $ASDF_NODE_DIR/asdf.sh
-source $ASDF_NODE_DIR/completions/asdf.bash
 
 export NODE_TRUST_FILE=$HOME/.asdf/plugins/nodejs/.trusted
 if [[ ! -f $NODE_TRUST_FILE ]];
