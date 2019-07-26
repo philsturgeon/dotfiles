@@ -1,7 +1,11 @@
 [init]
   templatedir = ~/.git_template
-[push]
-	default = current
+[core]
+  editor = code --wait
+  excludesfile = /Users/phil/.gitignore
+  autocrlf = input
+[commit]
+  template = ~/.gitmessage
 [color]
   ui = auto
 [alias]
@@ -12,13 +16,6 @@
   co = checkout
   pf = push --force-with-lease
   st = status
-[core]
-  excludesfile = ~/.gitignore
-  autocrlf = input
-[merge]
-  ff = only
-[commit]
-  template = ~/.gitmessage
 [fetch]
   prune = true
 [rebase]
@@ -30,5 +27,15 @@
 [user]
   name = "Phil Sturgeon"
   email = me@philsturgeon.uk
+[push]
+	default = matching
 [branch]
-	autosetupmerge = always
+	autoSetupMerge = always
+[merge]
+  tool = vscode
+[mergetool "vscode"]
+  cmd = code --wait $MERGED
+[diff]
+  tool = vscode
+[difftool "vscode"]
+  cmd = code --wait --diff $LOCAL $REMOTE
