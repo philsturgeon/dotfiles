@@ -31,3 +31,5 @@ cask 'signal'
 cask 'slack'
 cask 'transmission'
 cask 'visual-studio-code'
+cask 'vlc'
+
