@@ -13,7 +13,7 @@ alias atom="code"
 alias b="bundle"
 alias be="bundle exec"
 
-alias pr="hub pull-request"
+alias pr="gh pr create"
 alias gb="git branch"
 alias gc="git commit"
 alias gp="git push"
@@ -29,7 +29,6 @@ alias gca="git commit -a"
 alias gcan="git commit -a --no-edit"
 alias gca!="git commit -a --amend"
 alias gcan!="git commit -a --no-edit --amend"
-alias gpr='git push && hub pull-request'
 alias gitclean='git branch --merge master | grep -v master | grep -v "*" | xargs git branch -d'
 alias gitfiles='git diff-tree --no-commit-id --name-only -r'
 

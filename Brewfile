@@ -3,10 +3,10 @@ brew 'asciidoc' # local book toolchain
 brew 'docbook-xsl' # output epub and other book formats
 brew 'docker-compose'
 brew 'ffmpeg'
+brew 'gh'
 brew 'gpg'
 brew 'graphviz'
 brew 'httpie'
-brew 'hub'
 brew 'imagemagick'
 brew 's3cmd'
 brew 'wget'
