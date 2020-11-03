@@ -33,7 +33,3 @@ cask 'transmission'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'zoom'
-
-repo = 'popcorn-official/popcorn-desktop'
-tap repo, "https://github.com/#{repo}.git"
-cask 'popcorn-time'
