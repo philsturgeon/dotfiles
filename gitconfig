@@ -26,7 +26,7 @@
   colorMoved = zebra
 [user]
   name = "Phil Sturgeon"
-  email = me@philsturgeon.uk
+  email = me@philsturgeon.com
 [push]
 	default = matching
 [branch]
