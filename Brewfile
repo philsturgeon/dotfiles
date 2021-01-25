@@ -1,7 +1,6 @@
 brew 'asdf'
 brew 'asciidoc' # local book toolchain
 brew 'docbook-xsl' # output epub and other book formats
-brew 'docker-compose'
 brew 'ffmpeg'
 brew 'gh'
 brew 'gpg'
