@@ -5,13 +5,6 @@ Setting up and maintaining applications and settings on multiple machines, thank
 
 Based heavily on [thoughtbot/dotfiles](https://github.com/thoughtbot/dotfiles).
 
-Requirements
-------------
-
-Set zsh as your login shell:
-
-    chsh -s $(which zsh)
-
 Install
 -------
 
