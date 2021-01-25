@@ -1,14 +1,14 @@
 function setup() {
   if ! which brew > /dev/null; then
-       # Install Homebrew
-       /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    # Install Homebrew
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   fi;
 
   # Update brew
   brew update
 
   # Install everything in Brewfile
-  brew bundle --file=~/.Brewfile
+  brew bundle --verbose --file=~/.Brewfile
 
   brew cleanup --force
 }
