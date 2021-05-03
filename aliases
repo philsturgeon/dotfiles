@@ -29,7 +29,7 @@ alias gca="git commit -a"
 alias gcan="git commit -a --no-edit"
 alias gca!="git commit -a --amend"
 alias gcan!="git commit -a --no-edit --amend"
-alias gitclean='git branch --merge master | grep -v master | grep -v "*" | xargs git branch -d'
+alias gitclean='git branch --merge main | grep -v main | grep -v "*" | xargs git branch -d'
 alias gitfiles='git diff-tree --no-commit-id --name-only -r'
 
 # Pretty print the path

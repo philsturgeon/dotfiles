@@ -3,4 +3,4 @@
 set -e
 
 git fetch origin
-git rebase origin/master "$@"
+git rebase origin/main "$@"
