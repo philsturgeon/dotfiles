@@ -9,13 +9,11 @@ cask_args appdir: "/Applications"
 
 ## Priority
 cask 'firefox'
-cask 'dropbox'
 cask 'iterm2'
 cask 'visual-studio-code'
 
 ## Handy Stuff
 cask 'caffeine'
-cask 'docker'
 cask 'flux'
 cask 'flycut'
 cask 'get-backup-pro'
@@ -40,3 +38,4 @@ brew 'httpie'
 brew 'imagemagick'
 brew 's3cmd'
 brew 'wget'
+

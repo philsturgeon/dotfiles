@@ -123,4 +123,7 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
+alias oldbrew=/usr/local/bin/brew
+
+export PATH="/opt/homebrew/bin:$PATH"
 export PATH="$HOME/.gem/bin:$PATH"
