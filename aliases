@@ -7,9 +7,10 @@ alias v="$VISUAL"
 
 alias reload!='source ~/.zshrc'
 
-alias atom="code"
+# PHP
+alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
 
-# Bundler
+# Rails
 alias b="bundle"
 alias be="bundle exec"
 
