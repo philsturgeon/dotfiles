@@ -1,9 +1,11 @@
 [init]
   templatedir = ~/.git_template
+	defaultBranch = main
 [core]
-  editor = code --wait
+	editor = vim
   excludesfile = /Users/phil/.gitignore
-  autocrlf = input
+	autocrlf = input
+	eol = lf
 [commit]
   template = ~/.gitmessage
 [color]
@@ -26,9 +28,10 @@
   colorMoved = zebra
 [user]
   name = "Phil Sturgeon"
-  email = me@philsturgeon.com
+	email = 67381+philsturgeon@users.noreply.github.com
 [push]
 	default = matching
+	autoSetupRemote = true
 [branch]
 	autoSetupMerge = always
 [merge]
@@ -39,3 +42,5 @@
   tool = vscode
 [difftool "vscode"]
   cmd = code --wait --diff $LOCAL $REMOTE
+[pull]
+	rebase = false
