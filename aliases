@@ -14,24 +14,26 @@ alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
 alias b="bundle"
 alias be="bundle exec"
 
+# Git
 alias pr="gh pr create"
-alias gb="git branch"
-alias gc="git commit"
-alias gp="git push"
 alias gap="git add -p"
 alias glg="git lg"
-alias gpl="git pull --rebase"
+alias gp="git push"
+alias gpl="git pull"
 alias gdf="git diff --patience"
+alias gc="git commit"
 alias gcv="git commit -av"
 alias gcm="git commit -am"
-alias gst="git status -sb"
-alias gco="git checkout"
 alias gca="git commit -a"
 alias gcan="git commit -a --no-edit"
 alias gca!="git commit -a --amend"
 alias gcan!="git commit -a --no-edit --amend"
 alias gitclean='git branch --merge main | grep -v main | grep -v "*" | xargs git branch -d'
 alias gitfiles='git diff-tree --no-commit-id --name-only -r'
+alias gs="git switch"
+alias gsc="git switch -c"
+alias gst="git status -sb"
+alias gr="git restore"
 
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
