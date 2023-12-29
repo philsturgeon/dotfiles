@@ -123,8 +123,16 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
+# Make homebrew work at all
 export PATH="/opt/homebrew/bin:$PATH"
+
+# Make Ruby Global commands available
 export PATH="$HOME/.gem/bin:$PATH"
 
 # Make Yarn Global commands available
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+# Composer 
+export PATH=$(composer global config bin-dir --absolute --quiet):$PATH
+
+. /usr/local/opt/asdf/libexec/asdf.sh
