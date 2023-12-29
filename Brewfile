@@ -2,6 +2,9 @@
 tap "mas-cli/tap"
 
 mas "Airmail 5", id: 918858936
+mas "iaWriter", id: 775737590
+mas "Gifski", id: 1351639930
+mas "HEIC Converter", id: 1294126402
 
 # Casks
 cask_args appdir: "/Applications"
@@ -15,6 +18,7 @@ cask 'zoom'
 ## 1Password and 1Password CLI
 cask '1password'
 cask '1password/tap/1password-cli'
+cask  'cleanmymac'
 
 # Utilities
 cask 'caffeine'
@@ -32,10 +36,10 @@ cask 'vlc'
 brew 'asdf'
 brew 'asciidoc' # local book toolchain
 brew 'docbook-xsl' # output epub and other book formats
-brew 'ffmpeg'
 brew 'gh'
 brew 'gpg'
 brew 'graphviz'
 brew 'httpie'
 brew 'imagemagick'
+brew 'tree'
 brew 'wget'
