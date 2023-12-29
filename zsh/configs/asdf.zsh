@@ -8,8 +8,6 @@ then
   export ASDF_NODE_DIR=$HOME/.asdf
 fi
 
-source $ASDF_NODE_DIR/asdf.sh
-
 export NODE_TRUST_FILE=$HOME/.asdf/plugins/nodejs/.trusted
 if [[ ! -f $NODE_TRUST_FILE ]];
 then
