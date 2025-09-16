@@ -114,6 +114,9 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+# 1Password CLI
+source $HOME/.config/op/plugins.sh
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
