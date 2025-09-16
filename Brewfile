@@ -8,27 +8,25 @@ mas "HEIC Converter", id: 1294126402
 
 # Casks
 cask_args appdir: "/Applications"
-
+  
 ## Priority
 cask 'firefox'
 cask 'iterm2'
 cask 'visual-studio-code'
-cask 'zoom'
 
 ## 1Password and 1Password CLI
 cask '1password'
 cask '1password/tap/1password-cli'
-cask  'cleanmymac'
 
 # Utilities
 cask 'caffeine'
-cask 'flux'
+cask 'cleanmymac'
+cask 'flux-app'
 cask 'flycut'
 cask 'get-backup-pro'
 cask 'imageoptim'
 cask 'signal'
 cask 'slack'
-cask 'spotify'
 cask 'transmission'
 cask 'vlc'
 
