@@ -2,6 +2,7 @@
 tap "mas-cli/tap"
 
 mas "Airmail 5", id: 918858936
+mas "Amphetamine", id: 937984704
 mas "iaWriter", id: 775737590
 mas "Gifski", id: 1351639930
 mas "HEIC Converter", id: 1294126402
@@ -10,20 +11,18 @@ mas "HEIC Converter", id: 1294126402
 cask_args appdir: "/Applications"
   
 ## Priority
-cask 'firefox'
 cask 'iterm2'
 cask 'visual-studio-code'
+cask 'waterfox'
 
 ## 1Password and 1Password CLI
 cask '1password'
 cask '1password/tap/1password-cli'
 
 # Utilities
-cask 'caffeine'
 cask 'cleanmymac'
 cask 'flux-app'
 cask 'flycut'
-cask 'get-backup-pro'
 cask 'imageoptim'
 cask 'signal'
 cask 'slack'
