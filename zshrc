@@ -106,10 +106,9 @@ ZSH_THEME="avit"
 # Add wisely, as too many plugins slow down shell startup.
 
 plugins=(
-  #bundler
-  #git
-  #ruby
-  yarn
+  bundler
+  git
+  ruby
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -126,16 +125,22 @@ source $HOME/.config/op/plugins.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
+
+# unset GITHUB_TOKEN from gh's process environment and run gh command.
+# see https://github.com/cli/cli/issues/3799 for more details.
+alias gh="env -u GITHUB_TOKEN -u GH_TOKEN gh $1"
+
 # Make homebrew work at all
 export PATH="/opt/homebrew/bin:$PATH"
 
+# Make Homebrew Ruby available
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+
 # Make Ruby Global commands available
 export PATH="$HOME/.gem/bin:$PATH"
-
-# Make Yarn Global commands available
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 # Composer 
 export PATH=$(composer global config bin-dir --absolute --quiet):$PATH
 
 . /usr/local/opt/asdf/libexec/asdf.sh
+export PATH="/usr/local/opt/mysql-client/bin:$PATH"
